@@ -32,3 +32,11 @@ with open(csvpath, newline= "") as csvfile:
 overall = sum(profLoss)
 # number of months
 numMonths = len(months)
+
+# create a list of all changes and calculating the average
+while i < (len(profLoss)-1):
+    currChg = profLoss[i+1] - profLoss[i]
+    changes.append(currChg)
+    i = i + 1
+avgChg = (sum(changes))/(len(changes))
+avgChg = round(avgChg, 2)
