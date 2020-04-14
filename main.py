@@ -51,4 +51,12 @@ while j < (len(changes)):
         dec = changes[j] 
         decMon = j + 1
     j = j + 1
-    
+
+# print output in terminal
+print("Financial Analysis")
+print("----------------------------")
+print("Total Months: " + str(numMonths))
+print("Total Profit/Loss: $" + str(overall))
+print("Average Change: $" + str(avgChg))
+print("Greatest Increase in Profits: " + str(months[incMon]) + " ($" + str(inc) + ")")
+print("Greatest Decrease in Profits: " + str(months[decMon]) + " ($" + str(dec) + ")")
