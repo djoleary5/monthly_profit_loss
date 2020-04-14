@@ -19,6 +19,6 @@ A set of financial data called [budget_data.csv](monthly_profit_loss/Resources/b
   Greatest Increase in Profits: Feb-2012 ($1926159)
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
-* Created a text file `output.txt` and wrote the output into the file.
+* Created a text file [output.txt](output.txt) and wrote the output into the file.
 
 
