@@ -1,7 +1,8 @@
 # monthly_profit_loss
 Created a Python script for analyzing the financial records of a company.
 
-Using a set of financial data called [budget_data.csv](monthly_profit_loss/Resources/budget_data.csv) which is composed of two columns: `Date` and `Profit/Losses`. 
+## Data
+A set of financial data called [budget_data.csv](monthly_profit_loss/Resources/budget_data.csv) which is composed of two columns: `Date` and `Profit/Losses`. 
 
 ## Steps Taken
 * Created two lists; `months` and `profLoss`, and looped though each row of the dataset adding the month and the Profit/Loss to it's respective list.
@@ -18,5 +19,6 @@ Using a set of financial data called [budget_data.csv](monthly_profit_loss/Resou
   Greatest Increase in Profits: Feb-2012 ($1926159)
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
+* Created a text file `output.txt` and wrote the output into the file.
 
 
