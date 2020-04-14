@@ -40,3 +40,15 @@ while i < (len(profLoss)-1):
     i = i + 1
 avgChg = (sum(changes))/(len(changes))
 avgChg = round(avgChg, 2)
+
+
+# find the greatest profit and loss and capture the index for the month it occurred
+while j < (len(changes)):
+    if changes[j] > inc:
+        inc = changes[j]
+        incMon = j + 1
+    if changes[j] < dec:
+        dec = changes[j] 
+        decMon = j + 1
+    j = j + 1
+    
