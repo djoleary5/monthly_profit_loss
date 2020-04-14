@@ -9,4 +9,14 @@ Using a set of financial data called [budget_data.csv](monthly_profit_loss/Resou
 * Looped through each monthly Profit/Loss value and calculate the change from the previous month and add each one to list `changes` then calculated the average monthly change pver the entire period.
 * Used another loop to find the greates monthly increase and decrease and the months in which each occured.
 * Printed the output in the terminal:
+  ```text
+  Financial Analysis
+  ----------------------------
+  Total Months: 86
+  Total: $38382578
+  Average  Change: $-2315.12
+  Greatest Increase in Profits: Feb-2012 ($1926159)
+  Greatest Decrease in Profits: Sep-2013 ($-2196167)
+  ```
+
 
