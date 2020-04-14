@@ -2,7 +2,7 @@
 Created a Python script for analyzing the financial records of a company.
 
 ## Data
-A set of financial data called [budget_data.csv](monthly_profit_loss/Resources/budget_data.csv) which is composed of two columns: `Date` and `Profit/Losses`. 
+A set of financial data called [budget_data.csv](monthly_profit_loss/Resources/budget_data.csv) which is composed of two columns: `Date` (month-year) and `Profit/Losses` ($). 
 
 ## Steps Taken
 * Created two lists; `months` and `profLoss`, and looped though each row of the dataset adding the month and the Profit/Loss to it's respective list.
